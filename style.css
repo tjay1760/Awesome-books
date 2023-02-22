@@ -1,48 +1,53 @@
 body {
+  margin: 0;
+  width: 100vw;
+}
+
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 }
 
-.display {
+#display {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95%;
+  width: 45%;
   gap: 15px;
+  border: 1px solid lime;
 }
 
-#title-input,
-#author-input {
+.centerItems{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 45%;
-  height: 30px;
+  border: 1px solid lime;
+}
+
+#titleInput,
+#authorInput {
+  width: 95%; 
+  height: 30px; 
   border: 1.8px solid gray;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.add-button {
-  margin-left: 42.7%;
+#addButton {
+  margin-left: 80.7%;
 }
 
 .remove {
   margin-left: 35%;
 }
 
-.displayTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  margin-left: 35%;
+ul,
+li {
+  list-style: none;
 }
 
-.books-container {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-content: center;
-  width: 90%;
-}
