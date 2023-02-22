@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesom Books] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
-> The Awsome books Websites creates a catalogue of one's favorite books
+> The Awesome books Websites creates a catalogue of one's favorite books
 
 **[Awesome Books]** is a books catalogue
 
