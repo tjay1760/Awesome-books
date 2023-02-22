@@ -20,7 +20,7 @@ body {
   border: 1px solid #000;
 }
 
-.centerItems{
+.centerItems {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,11 +30,11 @@ body {
 
 #titleInput,
 #authorInput {
-  width: 95%; 
-  height: 30px; 
+  width: 95%;
+  height: 30px;
   border: 1.8px solid gray;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
 
 #addButton {
@@ -49,14 +49,15 @@ ul,
 li {
   list-style: none;
 }
-.displayFlex{
+
+.displayFlex {
   display: flex;
-width:96%;
-justify-content: space-between;
-padding:2%;
-margin:0%;
-}
-.backgroundColor{
-  background-color: rgb(170, 165, 156);
+  width: 96%;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 0%;
 }
 
+.backgroundColor {
+  background-color: rgb(170, 165, 156);
+}
