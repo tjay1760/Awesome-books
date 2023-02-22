@@ -15,9 +15,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 45%;
+  width: 80%;
   gap: 15px;
-  border: 1px solid lime;
+  border: 1px solid #000;
 }
 
 .centerItems{
@@ -26,7 +26,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 45%;
-  border: 1px solid lime;
 }
 
 #titleInput,
@@ -49,5 +48,15 @@ body {
 ul,
 li {
   list-style: none;
+}
+.displayFlex{
+  display: flex;
+width:96%;
+justify-content: space-between;
+padding:2%;
+margin:0%;
+}
+.backgroundColor{
+  background-color: rgb(170, 165, 156);
 }
 
