@@ -38,6 +38,7 @@ function displayBooks(books) {
     books.forEach((book, index) => {
         const itemDiv = document.createElement('ul')
         itemDiv.className = "displayFlex displayItemStyle"
+        if (index % 2 === 0) { itemDiv.className = "displayFlex displayItemStyle backgroundColor" }
         const bookItem = document.createElement('li');
         bookItem.className = "itemAdd"
         const remLi = document.createElement('li');
